@@ -11,5 +11,11 @@ public class MyController {
 	public String hello() {
 		return "Welcome user";
 	}
+	
+	//This is print end point
+	@GetMapping("/print")
+	public String print() {
+		return "print msg";
+	}
 
 }
