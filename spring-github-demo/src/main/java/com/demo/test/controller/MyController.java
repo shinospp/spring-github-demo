@@ -9,7 +9,7 @@ public class MyController {
 	//This is hello user end point
 	@GetMapping("/hello")
 	public String hello() {
-		return "Welcome user";
+		return "Welcome test user";
 	}
 	
 	//This is print end point
